@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Debug Snapshot** is a Python package designed to facilitate debugging by enabling the saving and loading of a snapshot of a Python debugging environment. This tool is especially useful in environments where traditional debugging tools are limited, making it easier to analyze and understand complex code behaviors.
+**Debug Snapshot** is a Python package designed to facilitate debugging by enabling the saving and loading of a snapshot of a Python debugging environment. This tool is especially useful when you would like to use the functionally interactive python for debugging, making it easier to analyze and understand complex code behaviors.
 
 ## Installation
 
