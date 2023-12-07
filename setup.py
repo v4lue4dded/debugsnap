@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="debug_snapshot",
-    version="0.1.1",
+    version="0.1.2",
     author="v4lue4dded",
     author_email="v4lue4dded@gmail.com",
     description="A tool to save and load a snapshot of a Python debugging environment.",

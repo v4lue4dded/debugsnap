@@ -173,7 +173,3 @@ def print_usage_example():
         + """globals().update(global_vars)\n"""
         + """locals().update(local_vars)\n"""
     )
-
-
-from debug_snapshot import save_snapshot
-save_snapshot(local_vars=locals(), global_vars=globals(), exclude=["exit", "quit", "engine", "globals"])
