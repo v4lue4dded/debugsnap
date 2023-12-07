@@ -1,12 +1,12 @@
-# Debug Snapshot
+# debugsnap
 
 ## Overview
 
-**Debug Snapshot** is a Python package designed to facilitate debugging by enabling the saving and loading of a snapshot of a Python debugging environment. This tool is especially useful when you would like to use the functionally interactive python for debugging, making it easier to analyze and understand complex code behaviors.
+**debugsnap** is a Python package designed to facilitate debugging by enabling the saving and loading of a snapshot of a Python debugging environment. This tool is especially useful when you would like to use the functionally interactive python for debugging, making it easier to analyze and understand complex code behaviors.
 
 ## Installation
 
-To install Debug Snapshot, simply run the following command:
+To install debugsnap, simply run the following command:
 
 ```bash
 pip install debugsnap
@@ -14,7 +14,7 @@ pip install debugsnap
 
 ## Usage
 
-To use Debug Snapshot, follow these steps:
+To use debugsnap, follow these steps:
 
 > ** Warning:** By default a new folder named `tmp_save_snapshot` will be created in your `~` directory and the shapshot files will be saved there. To avoid this behaviour you have to provide a `storage_path`.
 
@@ -64,16 +64,16 @@ In order to make the use of this package easier we suggest adding the following 
 
 ## Requirements
 
-Debug Snapshot requires Python 3.6 or later. Dependencies include:
+debugsnap requires Python 3.6 or later. Dependencies include:
 - dill >= 0.3.0
 
 ## Contributing
 
-Contributions to Debug Snapshot are welcome!
+Contributions to debugsnap are welcome!
 
 ## License
 
-Debug Snapshot is released under the MIT License. See the `LICENSE` file for more details.
+debugsnap is released under the MIT License. See the `LICENSE` file for more details.
 
 ## Contact
 
