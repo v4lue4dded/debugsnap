@@ -69,7 +69,7 @@ Debug Snapshot requires Python 3.6 or later. Dependencies include:
 
 ## Contributing
 
-Contributions to Debug Snapshot are welcome! Please read our contributing guidelines for details on submitting pull requests.
+Contributions to Debug Snapshot are welcome!
 
 ## License
 
