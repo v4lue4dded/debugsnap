@@ -16,7 +16,7 @@ pip install debug_snapshot
 
 To use Debug Snapshot, follow these steps:
 
-**⚠️ Warning:** By default a new folder named `tmp_save_snapshot` will be created in your `~` directory and the shapshot files will be saved there. To avoid this behaviour you have to provide a `storage_path`.
+> ** Warning:** By default a new folder named `tmp_save_snapshot` will be created in your `~` directory and the shapshot files will be saved there. To avoid this behaviour you have to provide a `storage_path`.
 
 1. **Saving the Debugging Snapshot**:
    In your debug session, use the appropriate function to save the current snapshot. For example:
