@@ -165,10 +165,10 @@ def load_snapshot(
 def print_usage_example():
     """Print a usage example for the save_snapshot and load_snapshot functions."""
     print(
-        """from debug_snapshot import save_snapshot\n"""
+        """from debugsnap import save_snapshot\n"""
         + """save_snapshot(local_vars=locals(), global_vars=globals(), exclude=["exit", "quit", "engine", "globals"])\n"""
         + """\n"""
-        + """from debug_snapshot import load_snapshot\n"""
+        + """from debugsnap import load_snapshot\n"""
         + """global_vars, local_vars = load_snapshot()\n"""
         + """globals().update(global_vars)\n"""
         + """locals().update(local_vars)\n"""

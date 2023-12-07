@@ -9,7 +9,7 @@
 To install Debug Snapshot, simply run the following command:
 
 ```bash
-pip install debug_snapshot
+pip install debugsnap
 ```
 
 ## Usage
@@ -21,14 +21,14 @@ To use Debug Snapshot, follow these steps:
 1. **Saving the Debugging Snapshot**:
    In your debug session, use the appropriate function to save the current snapshot. For example:
    ```python
-    from debug_snapshot import save_snapshot
+    from debugsnap import save_snapshot
     save_snapshot(local_vars=locals(), global_vars=globals())
    ```
 
 2. **Loading the Debugging Snapshot**:
    In a new Python session or an interactive environment, load the saved snapshot:
    ```python
-    from debug_snapshot import load_snapshot
+    from debugsnap import load_snapshot
     global_vars, local_vars = load_snapshot()
     globals().update(global_vars)
     locals().update(local_vars)
@@ -41,7 +41,7 @@ In order to make the use of this package easier we suggest adding the following 
     "Save Debug Snapshot": {
         "prefix": "save_snapshot",
         "body": [
-            "from debug_snapshot import save_snapshot",
+            "from debugsnap import save_snapshot",
             "save_snapshot(local_vars=locals(), global_vars=globals())"
         ],
         "description": "Save the current state of local and global variables, excluding specific ones."
@@ -49,7 +49,7 @@ In order to make the use of this package easier we suggest adding the following 
     "Load Debug Snapshot": {
         "prefix": "load_snapshot",
         "body": [
-            "from debug_snapshot import load_snapshot",
+            "from debugsnap import load_snapshot",
             "global_vars, local_vars = load_snapshot()",
             "globals().update(global_vars)",
             "locals().update(local_vars)"
@@ -81,4 +81,4 @@ For questions or feedback, please contact v4lue4dded@gmail.com.
 
 ## Author
 
-Developed by v4lue4dded. Visit the [GitHub repository](https://github.com/v4lue4dded/debug_snapshot) for more information and updates.
+Developed by v4lue4dded. Visit the [GitHub repository](https://github.com/v4lue4dded/debugsnap) for more information and updates.
