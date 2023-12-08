@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="debugsnap",
-    version="0.1.7",
+    version="0.1.8",
     author="v4lue4dded",
     author_email="v4lue4dded@gmail.com",
     description="A tool to save and load a snapshot of a Python debugging environment.",
