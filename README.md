@@ -64,6 +64,55 @@ In order to make the use of this package easier we suggest adding the following 
     }
 ```
 
+## Parameters
+```python
+def save_snapshot(
+    storage_path: Optional[str] = None,
+    global_vars: Optional[Dict] = None,
+    local_vars: Optional[Dict] = None,
+    global_vars_file: str = "global_vars.pkl",
+    local_vars_file: str = "local_vars.pkl",
+    not_saved_info_file: str = "not_saved_info.pkl",
+    exclude: Optional[List] = None,
+    strict: bool = False,
+    print_location: bool = True,
+) -> None:
+    """Save the snapshot of local and global variables to disk.
+
+    Parameters:
+        storage_path (Optional[str]): The storage path. Defaults to None.
+        global_vars (Dict): Global variables to save. Defaults to {}.
+        local_vars (Dict): Local variables to save. Defaults to {}.
+        global_vars_file (str): Filename for global variables. Defaults to 'global_vars.pkl'.
+        local_vars_file (str): Filename for local variables. Defaults to 'local_vars.pkl'.
+        not_saved_info_file (str): Filename for variables that couldn't be saved. Defaults to 'not_saved_info.pkl'.
+        exclude (List): List of variable names to exclude from saving. Defaults to [].
+        strict (bool): Raise exceptions for unpicklable variables if True. Defaults to False.
+        print_location (bool): Prints the location where the files where saved. Defaults to True.
+
+    Returns:
+        None
+    """
+
+def load_snapshot(
+    storage_path: Optional[str] = None,
+    global_vars_file: str = "global_vars.pkl",
+    local_vars_file: str = "local_vars.pkl",
+    not_saved_info_file: str = "not_saved_info.pkl",
+) -> Tuple[Dict, Dict]:
+    """Load the saved snapshot of local and global variables from disk.
+
+    Parameters:
+        storage_path (Optional[str]): The storage path. Defaults to None.
+        global_vars_file (str): Filename for global variables. Defaults to 'global_vars.pkl'.
+        local_vars_file (str): Filename for local variables. Defaults to 'local_vars.pkl'.
+        not_saved_info_file (str): Filename for variables that couldn't be saved. Defaults to 'not_saved_info.pkl'.
+
+    Returns:
+        Tuple[Dict, Dict]: A tuple containing dictionaries for global and local variables.
+    """
+```
+
 ## Requirements
 
 debugsnap requires Python 3.6 or later. Dependencies include:
