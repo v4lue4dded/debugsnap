@@ -68,7 +68,7 @@ In order to make the use of this package easier we suggest adding the following 
 
 Here is an overview over the parameters that the save_snapshot and load_snapshot functions can accept.
 
-In particular the `storage_path` parameter might be releveant to you if you don't want to always save to the same location in your `directory`.
+In particular the `storage_path` parameter might be releveant to you if you don't want to always save to the same location in your `~` directory.
 
 Varying the `storage_path` is also the easiest way to save multiple different snapshots as by default each snapshot overwrites the files of the previous snapshot.
 
