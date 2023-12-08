@@ -64,10 +64,6 @@ In order to make the use of this package easier we suggest adding the following 
     }
 ```
 
-- **Snapshot Saving**: Captures the current snapshot of your Python environment, including variables and their values.
-- **Snapshot Loading**: Restores the saved snapshot in a new Python session, allowing for continued exploration and debugging.
-- **Non-Picklable Object Handling**: Gracefully manages non-picklable objects, ensuring a robust saving process.
-
 ## Requirements
 
 debugsnap requires Python 3.6 or later. Dependencies include:
