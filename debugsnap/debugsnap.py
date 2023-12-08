@@ -79,7 +79,7 @@ def save_snapshot(
         not_saved_info_file (str): Filename for variables that couldn't be saved. Defaults to 'not_saved_info.pkl'.
         exclude (List): List of variable names to exclude from saving. Defaults to [].
         strict (bool): Raise exceptions for unpicklable variables if True. Defaults to False.
-        print_location (bool): Prints the location where the files where saved
+        print_location (bool): Prints the location where the files where saved. Defaults to True.
 
     Returns:
         None
