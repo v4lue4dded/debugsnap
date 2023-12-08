@@ -92,7 +92,7 @@ def save_snapshot(
         local_vars (Dict): Local variables to save. Defaults to {}.
         global_vars_file (str): Filename for global variables. Defaults to 'global_vars.pkl'.
         local_vars_file (str): Filename for local variables. Defaults to 'local_vars.pkl'.
-        not_saved_info_file (str): Filename for variables that couldn't be saved. Defaults to 'not_saved_info.pkl'.
+        not_saved_info_file (str): Filename for the information about variables that couldn't be saved. Defaults to 'not_saved_info.pkl'.
         exclude (List): List of variable names to exclude from saving. Defaults to [].
         strict (bool): Raise exceptions for unpicklable variables if True. Defaults to False.
         print_location (bool): Prints the location where the files where saved. Defaults to True.
