@@ -2,10 +2,13 @@
 
 ## Overview
 
-**debugsnap** is a Python package designed to facilitate debugging by enabling the saving and loading of a snapshot of the state of the local and global variables that can then be used for debugging. 
-This tool is especially useful when you would like to use the functionally interactive python provides for debugging.
+**debugsnap** is a Python package designed to facilitate debugging by enabling the saving and loading of a **snapshot of the state of the local and global variables** that can then be used for debugging.
+
+This tool is especially useful when you would like to use the functionally of **interactive python for debugging**.
+
 For example in order to itterate on code in a function that is in a state that takes a long time to achieve.
-Just save a snapshot when you are in that state then load the snapshot whenever and as often as you want and itterate.
+
+Just **save a snapshot** using the debug console when you are in that state then load the snapshot whenever and as often as you want and itterate.
 
 ## Installation
 
@@ -19,7 +22,7 @@ pip install debugsnap
 
 To use debugsnap, follow these steps:
 
-> ** Warning:** By default a new folder named `tmp_save_snapshot` will be created in your `~` directory and the shapshot files (containing the global variables, local variables and information about any variable that could not be saved for any reason) will be saved there. To avoid this behaviour you have to provide a `storage_path`.
+> ** Warning:** By default a new folder named `tmp_save_snapshot` will be created in your `~` directory and the shapshot files (containing the **global variables**, **local variables** and **information** about any **variable that could not be saved** for any reason) will be saved there. To change the storage location you have to provide a `storage_path`.
 
 1. **Saving the Debugging Snapshot**:
    In your debug session, use the appropriate function to save the current snapshot. For example:
