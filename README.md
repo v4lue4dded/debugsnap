@@ -40,7 +40,7 @@ To use debugsnap, follow these steps:
     locals().update(local_vars)
    ```
 
-# Snippets
+## Snippets
 
 In order to make the use of this package easier we suggest adding the following snippets to your VScode, by adding them to `/snippets/python.json` 
 ```json
